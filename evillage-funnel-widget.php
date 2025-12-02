@@ -139,12 +139,12 @@ if ( ! function_exists( 'ev_render_funnel_sections' ) ) {
 
 			if ( $q_prev->have_posts() ) {
 				echo '<section class="ev-funnel-section ev-funnel-prev-stage">';
-				$heading = 'To już powinieneś wiedzieć';
+				$heading = 'Jeśli dopiero poznajesz ';
 				if ( $cat_name ) {
-					$heading .= ' na temat ' . esc_html( $cat_name );
+					$heading .= ' temat "' . esc_html( $cat_name ) . '"';
 				}
-				echo '<h2 class="ev-funnel-heading">' . $heading . '</h2>';
-				echo '<p class="ev-funnel-intro">Jeśli pojęcia w tym wpisie są dla Ciebie nowe, zacznij od tych treści:</p>';
+				echo '<h2 class="ev-funnel-heading">' . $heading . ', polecam:</h2>';
+				// echo '<p class="ev-funnel-intro">Dla tych którzy zaczynają swoją przygodę z tematem i chcą zbudować mocny, pewny fundament wiedzy krok po kroku</p>';
 				echo '<ul class="ev-funnel-list ev-funnel-list-prev">';
 
 				while ( $q_prev->have_posts() ) {
@@ -182,12 +182,12 @@ if ( ! function_exists( 'ev_render_funnel_sections' ) ) {
 
 		if ( $q_same->have_posts() ) {
 			echo '<section class="ev-funnel-section ev-funnel-same-stage">';
-			$heading_same = 'Więcej na ten temat';
+			$heading_same = 'Jeśli chcesz pogłębić wiedzę ';
 			if ( $cat_name ) {
-				$heading_same .= ' ' . esc_html( $cat_name );
+				$heading_same .= ' na temat "' . esc_html( $cat_name ) . '"';
 			}
-			echo '<h2 class="ev-funnel-heading">' . $heading_same . '</h2>';
-			echo '<p class="ev-funnel-intro">Jeśli chcesz zgłębić ten temat, zobacz też:</p>';
+			echo '<h2 class="ev-funnel-heading">' . $heading_same . ', zobacz też:</h2>';
+			// echo '<p class="ev-funnel-intro">Dla tych którzy opanowali już podstawy i są gotowi odkrywać różne aspekty tematu, szukać praktycznych zastosowań i rozwijać swoje umiejętności</p>';
 			echo '<ul class="ev-funnel-list ev-funnel-list-same">';
 
 			while ( $q_same->have_posts() ) {
@@ -225,12 +225,12 @@ if ( ! function_exists( 'ev_render_funnel_sections' ) ) {
 
 			if ( $q_next->have_posts() ) {
 				echo '<section class="ev-funnel-section ev-funnel-next-stage">';
-				$heading_next = 'Z tym się jeszcze zapoznaj';
+				$heading_next = 'Jeśli chcesz rozwijać się dalej, stać się ekspertem';
 				if ( $cat_name ) {
-					$heading_next .= ' na temat ' . esc_html( $cat_name );
+					$heading_next .= ' w temacie "' . esc_html( $cat_name ) . '"';
 				}
-				echo '<h2 class="ev-funnel-heading">' . $heading_next . '</h2>';
-				echo '<p class="ev-funnel-intro">To są kolejne wpisy, które pomogą Ci dowiedzieć się więcej:</p>';
+				echo '<h2 class="ev-funnel-heading">' . $heading_next . ', polecam:</h2>';
+				// echo '<p class="ev-funnel-intro">Dla tych którzy chcą rozwijać się dalej, stać się ekspertem, poznać zaawansowane techniki</p>';
 				echo '<ul class="ev-funnel-list ev-funnel-list-next">';
 
 				while ( $q_next->have_posts() ) {

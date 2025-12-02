@@ -44,23 +44,32 @@ tofu → mofu → bofu
 
 Na każdym wpisie wyświetlane są do trzech sekcji:
 
-#### Sekcja 1: "To już powinieneś wiedzieć na temat [kategoria]"
-- **Kiedy:** Gdy istnieje poprzedni etap lejka
+#### Sekcja 1: "Jeśli dopiero poznajesz temat [kategoria], polecam:"
+- **Dla tych którzy:** Zaczynają swoją przygodę z tematem i chcą zbudować mocny, pewny fundament wiedzy krok po kroku
+- **JTBD:** "Pomóż mi pewnie opanować podstawy i zrozumieć fundamenty, na których zbuduję dalszą wiedzę"
+- **Intencja użytkownika:** Chce poznać podstawy, zrozumieć fundamentalne pojęcia
+- **Kiedy wyświetla się:** Gdy istnieje poprzedni etap lejka
 - **Pokazuje:** 3 najstarsze wpisy z poprzedniego etapu w tej samej kategorii
-- **Cel:** Upewnić się, że czytelnik ma fundamenty
-- **Sortowanie:** Od najstarszych (ASC)
+- **Cel:** Upewnić się, że czytelnik ma solidne fundamenty przed zagłębianiem się w temat
+- **Sortowanie:** Od najstarszych (ASC) - chronologiczna ścieżka uczenia się
 
-#### Sekcja 2: "Więcej na ten temat [kategoria]"
-- **Kiedy:** Zawsze (jeśli są inne wpisy)
+#### Sekcja 2: "Jeśli chcesz pogłębić wiedzę na temat [kategoria], zobacz też:"
+- **Dla tych którzy:** Opanowali już podstawy i są gotowi odkrywać różne aspekty tematu, szukać praktycznych zastosowań i rozwijać swoje umiejętności
+- **JTBD:** "Pomóż mi zobaczyć temat z różnych perspektyw i nauczyć się pewnie stosować tę wiedzę w praktyce"
+- **Intencja użytkownika:** Chce pogłębić wiedzę na obecnym poziomie zaawansowania
+- **Kiedy wyświetla się:** Zawsze (jeśli są inne wpisy)
 - **Pokazuje:** 4 najnowsze wpisy z tego samego etapu w tej samej kategorii
-- **Cel:** Pogłębić wiedzę na aktualnym poziomie
-- **Sortowanie:** Od najnowszych (DESC)
+- **Cel:** Wzmocnić wiedzę na aktualnym poziomie, poznać różne aspekty tematu
+- **Sortowanie:** Od najnowszych (DESC) - najświeższe treści na tym samym poziomie
 
-#### Sekcja 3: "Z tym się jeszcze zapoznaj na temat [kategoria]"
-- **Kiedy:** Gdy istnieje następny etap lejka
+#### Sekcja 3: "Jeśli chcesz rozwijać się dalej, stać się ekspertem w temacie [kategoria], polecam:"
+- **Dla tych którzy:** Chcą osiągnąć poziom ekspercki i poznać zaawansowane techniki, które otworzą przed nimi nowe możliwości
+- **JTBD:** "Pomóż mi opanować zaawansowane umiejętności i stać się ekspertem, który potrafi rozwiązywać złożone problemy"
+- **Intencja użytkownika:** Chce rozwijać się dalej, stać się ekspertem, poznać zaawansowane techniki
+- **Kiedy wyświetla się:** Gdy istnieje następny etap lejka
 - **Pokazuje:** 3 najnowsze wpisy z następnego etapu w tej samej kategorii
-- **Cel:** Zachęcić do rozwoju i zgłębiania tematu
-- **Sortowanie:** Od najnowszych (DESC)
+- **Cel:** Zachęcić do rozwoju i przejścia na wyższy poziom wiedzy
+- **Sortowanie:** Od najnowszych (DESC) - aktualne materiały zaawansowane
 
 ### 3. Filtrowanie przez Kategorie
 
