@@ -1,0 +1,102 @@
+/* === Lejek treści EVILLAGE – styl dopasowany do bloga === */
+
+/* Kontener na cały blok lejka */
+.entry-content .ev-funnel-sections {
+	margin-top: clamp(3rem, 4vw, 3.5rem);
+	padding-top: 2rem;
+	border-top: 1px solid var(--theme-border-color, rgba(15,23,42,0.08));
+	display: flex;
+	flex-direction: column;
+	gap: 1.75rem;
+}
+
+/* Na desktopie trzy kolumny obok siebie, jak kafelki */
+@media (min-width: 960px) {
+	.entry-content .ev-funnel-sections {
+		flex-direction: row;
+	}
+}
+
+/* Pojedyncza sekcja (poprzedni / ten sam / następny etap) */
+.entry-content .ev-funnel-section {
+	flex: 1 1 0;
+	padding: 1.5rem 1.6rem 1.3rem;
+	background: #ffffff;
+	border: 1px solid rgba(15,23,42,0.06);
+	box-shadow: 0 16px 40px rgba(15,23,42,0.04);
+}
+
+/* Nagłówki sekcji – mały "label" jak w notkach/sekcjach */
+.entry-content .ev-funnel-heading {
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	margin: 0 0 0.4rem;
+	color: var(--theme-link-initial-color);
+}
+
+/* Krótkie intro pod nagłówkiem */
+.entry-content .ev-funnel-intro {
+	margin: 0 0 0.9rem;
+	font-size: 0.9rem;
+	line-height: 1.6;
+	color: var(--theme-text-color-light, rgba(15,23,42,0.7));
+}
+
+/* Lista linków */
+.entry-content .ev-funnel-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 0.85rem;
+}
+
+/* Element listy – lekki akcent z lewej */
+.entry-content .ev-funnel-item {
+	position: relative;
+	padding-left: 1.2rem;
+}
+
+/* Kropeczka-akcent przy każdym elemencie */
+.entry-content .ev-funnel-item::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0.55rem;
+	width: 6px;
+	height: 6px;
+	border-radius: 999px;
+	background: var(--theme-link-color, var(--theme-palette-color-1, #f97316));
+	opacity: 0.85;
+}
+
+/* Link – tytuł artykułu */
+.entry-content .ev-funnel-link {
+	display: inline-block;
+	font-weight: 600;
+	text-decoration: none;
+	color: var(--theme-heading-color, #0f172a);
+	transition: color 0.18s ease, transform 0.18s ease;
+}
+
+/* Hover – tak jak przy linkach w Bazie wiedzy */
+.entry-content .ev-funnel-link:hover {
+	color: var(--theme-link-color, var(--theme-palette-color-1, #f97316));
+	transform: translateY(-1px);
+}
+
+/* Krótkie streszczenie */
+.entry-content .ev-funnel-excerpt {
+	margin: 0.15rem 0 0;
+	font-size: 0.86rem;
+	line-height: 1.55;
+	color: var(--theme-text-color-light, rgba(15,23,42,0.72));
+}
+
+/* Trochę ciaśniej na bardzo małych ekranach */
+@media (max-width: 599px) {
+	.entry-content .ev-funnel-section {
+		padding: 1.35rem 1.3rem 1.25rem;
+	}
+}
