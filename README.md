@@ -1,9 +1,5 @@
 # Funnel Widget for WordPress 
 
-**Wersja:** 1.0.0  
-**Autor:** EVILLAGE / Rafał  
-**Wymagania:** WordPress 5.0+, PHP 7.0+
-
 ## Opis
 
 Plugin do inteligentnego wyświetlania powiązanych treści w blogach WordPress, oparty na modelu lejka marketingowego (Marketing Funnel). Automatycznie proponuje czytelnikom treści dopasowane do ich poziomu wiedzy poprzez system TOFU/MOFU/BOFU.
