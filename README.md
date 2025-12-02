@@ -1,4 +1,4 @@
-# eVillage Funnel Widget
+# Funnel Widget for WordPress 
 
 **Wersja:** 1.0.0  
 **Autor:** EVILLAGE / Rafał  
@@ -6,7 +6,10 @@
 
 ## Opis
 
-Plugin do inteligentnego wyświetlania powiązanych treści w blogach edukacyjnych i marketingowych, oparty na modelu lejka marketingowego (Marketing Funnel). Automatycznie proponuje czytelnikom treści dopasowane do ich poziomu wiedzy poprzez system TOFU/MOFU/BOFU.
+Plugin do inteligentnego wyświetlania powiązanych treści w blogach WordPress, oparty na modelu lejka marketingowego (Marketing Funnel). Automatycznie proponuje czytelnikom treści dopasowane do ich poziomu wiedzy poprzez system TOFU/MOFU/BOFU.
+
+Plugin służy również do zwiększenia zaangażowania użytkowników, poprawy nawigacji oraz wydłużenia czasu przebywania na stronie (dwell time).
+Kluczem jest jednak klasterowanie treści według kategorii i poziomu zaawansowania.
 
 ## Koncepcja: Lejek Marketingowy (Marketing Funnel)
 
